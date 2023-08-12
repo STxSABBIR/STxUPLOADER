@@ -3,7 +3,7 @@ import os
 class Config(object):
     # Get a token from @BotFather
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "STxUPLOADER_bot")
     # The Telegram API things.
     API_ID = int(os.environ.get("API_ID", 12345))
     API_HASH = os.environ.get("API_HASH")
