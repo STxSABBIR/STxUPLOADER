@@ -1,0 +1,40 @@
+{
+  "name": "STxUPLOADER",
+  "description": "A Telegram bot designed to effortlessly upload URLs to Telegram in the form of both files and videos.",
+  "keywords": [ "URL UPLOADER"],
+  "success_url": "https://t.me/SABBiRTUNE",
+  "website": "https://stuneonline.blogspot.com",
+  "repository": "https://github.com/STxSABBIR/STxUPLOADER",
+
+  "env": {
+    "WEBHOOK": {"description": "Assigning ANYTHING to this variable activates webhooks in environment mode.",
+      "value": "ANYTHING"},
+
+    "BOT_TOKEN": {"description": "Your bot token, in string format.",
+        "value": ""},
+
+    "API_ID": {"description": "Get this value from https://my.telegram.org",
+     "value": ""},
+
+    "API_HASH": {"description": "Get this value from https://my.telegram.org",
+       "value": ""},
+
+    "OWNER_ID": {"description": "Your Telegram ID",
+       "value": ""},
+
+    "PREMIUM_USER": {"description": "If you're a Telegram premium user, set this to True.",
+       "value": "False"},
+
+    "DATABASE_URL": {"description": "Your MongoDB URI",
+           "value": ""} },
+
+  "addons": [ ],
+  "buildpacks": [ {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"},
+                  {"url": "heroku/python" } ],
+  "formation": {
+     "worker": {
+   "quantity": 1,
+       "size": "Eco"
+    }
+  }
+}
