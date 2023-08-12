@@ -193,7 +193,7 @@ async def echo(bot, update):
                 "video", format_id, format_ext)
             inline_keyboard.append([
                 InlineKeyboardButton(
-                    "ᴅ-ғɪʟᴇ",
+                    "s-ᴠɪᴅᴇᴏ",
                     callback_data=(cb_string_video).encode("UTF-8")
                 ),
                 InlineKeyboardButton(
