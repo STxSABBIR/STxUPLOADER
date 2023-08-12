@@ -19,8 +19,6 @@ from youtube_search import YoutubeSearch
 from yt_dlp import YoutubeDL
 from config import Config
 
-from config import BOT_USERNAME as bn
-
 def humanbytes(size):
     """ᴄᴏɴᴠᴇʀᴛ ʙʏᴛᴇs ᴛᴏ ʙʏᴛᴇs sᴏ ᴛʜᴀᴛ ʜᴜᴍᴀɴ ᴄᴀɴ ʀᴇᴀᴅ ɪᴛ"""
     if not size:
@@ -44,7 +42,7 @@ ydl_opts = {
 }
 
 
-@Client.on_message(filters.command(["song", f"song@{bn}"]))
+@Client.on_message(filters.command(["song", f"song@{Config.BOT_USERNAME}"]))
 def song(_, message):
     query = " ".join(message.command[1:])
     m = message.reply("🔎 ғɪɴᴅɪɴɢ sᴏɴɢ...")
@@ -69,7 +67,7 @@ def song(_, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"**🎧 ᴜᴘʟᴏᴀᴅᴇʀ @{bn}**"
+        rep = f"**🎧 ᴜᴘʟᴏᴀᴅᴇʀ @{Config.BOT_USERNAME}**"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(float(dur_arr[i])) * secmul
@@ -224,7 +222,7 @@ def time_to_seconds(times):
     return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
-@Client.on_message(filters.command(["vsong", f"vsong@{bn}", "video", f"video@{bn}"]))
+@Client.on_message(filters.command(["vsong", f"vsong@{Config.BOT_USERNAME}", "video"]))
 async def vsong(client, message):
     ydl_opts = {
         "format": "best",
