@@ -11,3 +11,10 @@ dnspython
 motor[srv]
 beautifulsoup4
 pyrogram==1.4.16
+ffmpeg-python
+pyffmpeg==2.2.2
+ffmpeg-python
+wget
+youtube-search-python
+youtube-search
+random
