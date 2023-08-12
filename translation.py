@@ -17,7 +17,7 @@ class Translation(object):
     AFTER_SUCCESSFUL_UPLOAD_MSG = "ᴀᴘᴘʀᴇᴄɪᴀᴛᴇ ʏᴏᴜʀ ᴜsᴀɢᴇ ᴏғ ᴛʜᴇ ʙᴏᴛ.\n\n<ʙ>ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴊᴏɪɴ ᴜs ᴀᴛ: @SABBiRTUNE</ʙ>"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs & ᴜᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n\nᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ @STxUPLOADER :)"
     SAVED_CUSTOM_THUMB_NAIL = "ᴡᴇ'ᴠᴇ sᴀᴠᴇᴅ ʏᴏᴜʀ ᴄᴜsᴛᴏᴍ ɪᴍᴀɢᴇ ᴛʜᴀᴛ ᴡɪʟʟ ʙᴇ ᴜsᴇᴅ ᴀs ᴛʜᴇ ᴛʜᴜᴍʙɴᴀɪʟ ғᴏʀ ʏᴏᴜʀ ᴠɪᴅᴇᴏ ғɪʟᴇ."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ! ✅"
     CUSTOM_CAPTION_UL_FILE = "{}"
     NO_VOID_FORMAT_FOUND = "ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜᴛᴜʙᴇᴅʟ: {}"
     HELP_USER = """ᴜsɪɴɢ ᴍᴇ: ᴊᴜsᴛ ғᴏʟʟᴏᴡ ᴛʜᴇsᴇ sɪᴍᴘʟᴇ sᴛᴇᴘs!
@@ -30,7 +30,7 @@ class Translation(object):
    - ᴠɪᴅᴇᴏ: ᴅᴇʟɪᴠᴇʀs ᴠɪᴅᴇᴏ ᴡɪᴛʜᴏᴜᴛ sᴄʀᴇᴇɴsʜᴏᴛs
    - ғɪʟᴇ: sʜᴀʀᴇs ғɪʟᴇ ᴡɪᴛʜᴏᴜᴛ sᴄʀᴇᴇɴsʜᴏᴛs
 
-ɪғ ᴛʜᴇ ʙᴏᴛ ᴅᴏᴇsɴ'ᴛ ʀᴇsᴘᴏɴᴅ, ʀᴇᴀᴄʜ ᴏᴜᴛ ᴛᴏ @sabbir69x"""
+ɪғ ᴛʜᴇ ʙᴏᴛ ᴅᴏᴇsɴ'ᴛ ʀᴇsᴘᴏɴᴅ, ʀᴇᴀᴄʜ ᴏᴜᴛ ᴛᴏ @sabbir69x :)"""
 
     REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ, ʀᴇᴘʟʏ ᴡɪᴛʜ /generatecustomthumbnail ᴛᴏ ᴀ ᴍᴇᴅɪᴀ ᴀʟʙᴜᴍ."
     ERR_ONLY_TWO_MEDIA_IN_ALBUM = """ғᴏʀ ᴛʜᴇ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ, ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜʀ ᴍᴇᴅɪᴀ ᴀʟʙᴜᴍ ɪɴᴄʟᴜᴅᴇs ᴏɴᴇ ᴏʀ ᴛᴡᴏ ᴘʜᴏᴛᴏs. ᴘʟᴇᴀsᴇ ʀᴇsᴇɴᴅ ᴛʜᴇ ᴀʟʙᴜᴍ ᴡɪᴛʜ ᴛᴡᴏ ᴘʜᴏᴛᴏs ᴏʀ sᴇɴᴅ ᴀ ɴᴇᴡ ᴀʟʙᴜᴍ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ."
