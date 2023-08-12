@@ -1,41 +1,39 @@
 class Translation(object):
 
-    ERROR = "<b>ERROR :</b> {}"
+    ERROR = "<b>ᴇʀʀᴏʀ :</b> {}"
 
-    START_TEXT = """Hi {},
-I'm URL X Uploader!
-You can upload HTTP/HTTPS direct link, Using this bot!
-
-/help for more details!"""
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | filename | username | password"""
-    DOWNLOAD_START = "📥Downloading..."
-    UPLOAD_START = "📤Uploading..."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 2GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thanks for using @Uploader_X_bot\n\n<b>Join : @Space_X_Bots</b>"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds.\n\n@Uploader_X_Bot"
-    SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
-    DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
-    CUSTOM_CAPTION_UL_FILE = "{}"
-    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
-    HELP_USER = """How to Use Me? Follow These steps!
+    START_TEXT = """ʜᴇʏ {}, ɪ'ᴍ sᴛxᴜᴘʟᴏᴀᴅᴇʀ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛ!    
+ᴊᴜsᴛ sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴅɪʀᴇᴄᴛ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ ᴀɴᴅ ɪ'ʟʟ ᴜᴘʟᴏᴀᴅ ғɪʟᴇ ʀᴇᴍᴏᴛᴇʟʏ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ.
+ᴡᴀɴᴛ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ? sᴇɴᴅ /help ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴍᴇ!
+    FORMAT_SELECTION = "ᴄʜᴏᴏsᴇ ʏᴏᴜʀ ᴘʀᴇғᴇʀʀᴇᴅ ғᴏʀᴍᴀᴛ: <a href='{}'>ᴘʟᴇᴀsᴇ ɴᴏᴛᴇ ᴛʜᴀᴛ ғɪʟᴇ sɪᴢᴇs ᴀʀᴇ ᴀᴘᴘʀᴏxɪᴍᴀᴛᴇ.</a> \n\nғᴏʀ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ's, sᴇɴᴅ ᴀ ᴘʜᴏᴛᴏ ʙᴇғᴏʀᴇ ᴏʀ sᴏᴏɴ ᴀғᴛᴇʀ ᴛᴀᴘᴘɪɴɢ ᴀɴʏ ᴏғ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ.\n\nᴛᴏ ʀᴇᴍᴏᴠᴇ ᴛʜᴇ ᴀᴜᴛᴏ-ɢᴇɴᴇʀᴀᴛᴇᴅ ᴛʜᴜᴍʙɴᴀɪʟ, ᴇᴍᴘʟᴏʏ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ /deletethumbnail."
+    SET_CUSTOM_USERNAME_PASSWORD = """ғᴏʀ ᴘʀᴇᴍɪᴜᴍ ᴠɪᴅᴇᴏ ᴅᴏᴡɴʟᴏᴀᴅs, ᴘʟᴇᴀsᴇ sᴜᴘᴘʟʏ ᴛʜᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ɪɴ ᴛʜᴇ ғᴏʀᴍᴀᴛ ʙᴇʟᴏᴡ.
     
-1. Send url (example.domain/File.mp4 | New Filename.mp4).
-2. Send Image As Custom Thumbnail (Optional).
-3. Select the button.
-   SVideo - Give File as video with Screenshots
-   DFile  - Give File (video) as file with Screenshots
-   Video  - Give File as video without Screenshots
-   File   - Give File without Screenshots
-
-If bot didn't respond, contact @Sources_Codes"""
-    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
-    ERR_ONLY_TWO_MEDIA_IN_ALBUM = """Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
-You can use /rename command after receiving file to rename it with custom thumbnail support.
+    ᴜʀʟ | ғɪʟᴇɴᴀᴍᴇ | ᴜsᴇʀɴᴀᴍᴇ | ᴘᴀssᴡᴏʀᴅ."""
+    DOWNLOAD_START = "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ! 📥"
+    UPLOAD_START = "ᴜᴘʟᴏᴀᴅɪɴɢ! 📤"
+    RCHD_TG_API_LIMIT = "ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n\nғɪʟᴇ sɪᴢᴇ ᴅᴇᴛᴇᴄᴛᴇᴅ: {}\nsᴏʀʀʏ, ɪ ᴄᴀɴ'ᴛ ᴜᴘʟᴏᴀᴅ ғɪʟᴇs ʟᴀʀɢᴇʀ ᴛʜᴀɴ 2ɢʙ ᴀs ᴘᴇʀ ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴀᴘɪ ʀᴇsᴛʀɪᴄᴛɪᴏɴs."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "ᴀᴘᴘʀᴇᴄɪᴀᴛᴇ ʏᴏᴜʀ ᴜsᴀɢᴇ ᴏғ ᴛʜᴇ ʙᴏᴛ.\n\n<b>ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴊᴏɪɴ ᴜs ᴀᴛ: @SABBiRTUNE</b>"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs & ᴜᴘʟᴏᴀᴅᴇᴅ ɪɴ {} sᴇᴄᴏɴᴅs.\n\nᴜᴘʟᴏᴀᴅᴇᴅ ʙʏ @STxUPLOADER"
+    SAVED_CUSTOM_THUMB_NAIL = "ᴡᴇ'ᴠᴇ sᴀᴠᴇᴅ ʏᴏᴜʀ ᴄᴜsᴛᴏᴍ ɪᴍᴀɢᴇ ᴛʜᴀᴛ ᴡɪʟʟ ʙᴇ ᴜsᴇᴅ ᴀs ᴛʜᴇ ᴛʜᴜᴍʙɴᴀɪʟ ғᴏʀ ʏᴏᴜʀ ᴠɪᴅᴇᴏ ғɪʟᴇ."
+    DEL_ETED_CUSTOM_THUMB_NAIL = "ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴅᴇʟᴇᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✅"
+    CUSTOM_CAPTION_UL_FILE = "{}"
+    NO_VOID_FORMAT_FOUND = "ᴀɴ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ʏᴏᴜᴛᴜʙᴇᴅʟ: {}"
+    HELP_USER = """ᴜsɪɴɢ ᴍᴇ: ᴊᴜsᴛ ғᴏʟʟᴏᴡ ᴛʜᴇsᴇ sɪᴍᴘʟᴇ sᴛᴇᴘs!
+1. sʜᴀʀᴇ ᴛʜᴇ ᴜʀʟ (ᴇxᴀᴍᴘʟᴇ.ᴅᴏᴍᴀɪɴ/ғɪʟᴇ.ᴍᴘ4 | ɴᴇᴡ ғɪʟᴇɴᴀᴍᴇ.ᴍᴘ4).
+2. sʜᴀʀᴇ ᴀɴ ɪᴍᴀɢᴇ ғᴏʀ ᴀ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ (ᴏᴘᴛɪᴏɴᴀʟ).
+3. ᴄʜᴏᴏsᴇ ᴀ ʙᴜᴛᴛᴏɴ:
+   - sᴠɪᴅᴇᴏ: ᴘʀᴏᴠɪᴅᴇs ᴠɪᴅᴇᴏ ᴡɪᴛʜ sᴄʀᴇᴇɴsʜᴏᴛs
+   - ᴅғɪʟᴇ: ᴏғғᴇʀs ғɪʟᴇ (ᴠɪᴅᴇᴏ) ᴡɪᴛʜ sᴄʀᴇᴇɴsʜᴏᴛs
+   - ᴠɪᴅᴇᴏ: ᴅᴇʟɪᴠᴇʀs ᴠɪᴅᴇᴏ ᴡɪᴛʜᴏᴜᴛ sᴄʀᴇᴇɴsʜᴏᴛs
+   - ғɪʟᴇ: sʜᴀʀᴇs ғɪʟᴇ ᴡɪᴛʜᴏᴜᴛ sᴄʀᴇᴇɴsʜᴏᴛs
+   
+ɪғ ᴛʜᴇ ʙᴏᴛ ᴅᴏᴇsɴ'ᴛ ʀᴇsᴘᴏɴᴅ, ʀᴇᴀᴄʜ ᴏᴜᴛ ᴛᴏ @sabbir69x"""
+    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ, ʀᴇᴘʟʏ ᴡɪᴛʜ /generatecustomthumbnail ᴛᴏ ᴀ ᴍᴇᴅɪᴀ ᴀʟʙᴜᴍ."
+    ERR_ONLY_TWO_MEDIA_IN_ALBUM = """ғᴏʀ ᴛʜᴇ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ, ᴍᴀᴋᴇ sᴜʀᴇ ʏᴏᴜʀ ᴍᴇᴅɪᴀ ᴀʟʙᴜᴍ ɪɴᴄʟᴜᴅᴇs ᴏɴᴇ ᴏʀ ᴛᴡᴏ ᴘʜᴏᴛᴏs. ᴘʟᴇᴀsᴇ ʀᴇsᴇɴᴅ ᴛʜᴇ ᴀʟʙᴜᴍ ᴡɪᴛʜ ᴛᴡᴏ ᴘʜᴏᴛᴏs ᴏʀ sᴇɴᴅ ᴀ ɴᴇᴡ ᴀʟʙᴜᴍ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ."
+  ᴀғᴛᴇʀ ʏᴏᴜ'ᴠᴇ ʀᴇᴄᴇɪᴠᴇᴅ ᴛʜᴇ ғɪʟᴇ, ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴜsᴇ ᴛʜᴇ /rename ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ɢɪᴠᴇ ɪᴛ ᴀ ɴᴇᴡ ɴᴀᴍᴇ ᴡɪᴛʜ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ sᴜᴘᴘᴏʀᴛ.
 """
-    CANCEL_STR = "Process Cancelled"
-    ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    CANCEL_STR = "ᴘʀᴏᴄᴇss ᴄᴀɴᴄᴇʟʟᴇᴅ"
+    ZIP_UPLOADED_STR = "ᴜᴘʟᴏᴀᴅᴇᴅ {} ғɪʟᴇs ɪɴ {} sᴇᴄᴏɴᴅs"
+    SLOW_URL_DECED = "ᴛʜɪs ᴜʀʟ ɪs ʀᴇᴀʟʟʏ sʟᴏᴡ! ʙᴇᴄᴀᴜsᴇ ɪᴛ ᴡᴀs ᴀғғᴇᴄᴛɪɴɢ ᴍʏ ᴘᴇʀғᴏʀᴍᴀɴᴄᴇ ᴡʜɪʟᴇ ʏᴏᴜ ᴡᴇʀᴇ ᴜsɪɴɢ ᴍʏ sᴇʀᴠɪᴄᴇs, ɪ'ᴍ ɴᴏᴛ ʀᴇᴀʟʟʏ ᴜᴘ ғᴏʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜɪs ғɪʟᴇ. ᴄᴀɴ ʏᴏᴜ ғɪɴᴅ ᴀ ғᴀsᴛᴇʀ ᴜʀʟ? ᴛʜᴀᴛ ᴡᴀʏ, ɪ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ᴛʜᴇ ғɪʟᴇ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ ϙᴜɪᴄᴋʟʏ ᴡɪᴛʜᴏᴜᴛ ᴄᴀᴜsɪɴɢ ᴀɴʏ sʟᴏᴡᴅᴏᴡɴs ғᴏʀ ᴏᴛʜᴇʀs."
 
-    ERROR_YTDLP = "please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; see  https://yt-dl.org/update  on how to update. Be sure to call youtube-dl with the --verbose flag and include its complete output."
+    ERROR_YTDLP = "ᴛᴏ ʀᴇᴘᴏʀᴛ ᴛʜɪs ɪssᴜᴇ, ᴘʟᴇᴀsᴇ ᴠɪsɪᴛ https://github.com/ytdl-org/youtube-dl/issues. ᴇɴsᴜʀᴇ ᴛʜᴀᴛ ʏᴏᴜ ᴀʀᴇ ᴜsɪɴɢ ᴛʜᴇ ʟᴀᴛᴇsᴛ ᴠᴇʀsɪᴏɴ. ʏᴏᴜ ᴄᴀɴ ғɪɴᴅ ᴜᴘᴅᴀᴛᴇ ɪɴsᴛʀᴜᴄᴛɪᴏɴs ᴀᴛ https://github.com/ytdl-org/youtube-dl#how-do-i-update-youtube-dl. ᴡʜᴇɴ ᴍᴀᴋɪɴɢ ᴛʜᴇ ʀᴇᴘᴏʀᴛ, ʀᴇᴍᴇᴍʙᴇʀ ᴛᴏ ᴜsᴇ ᴛʜᴇ --ᴠᴇʀʙᴏsᴇ ғʟᴀɢ ᴡʜɪʟᴇ ᴄᴀʟʟɪɴɢ ʏᴏᴜᴛᴜʙᴇ-ᴅʟ ᴀɴᴅ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇ ᴄᴏᴍᴘʟᴇᴛᴇ ᴏᴜᴛᴘᴜᴛ."
