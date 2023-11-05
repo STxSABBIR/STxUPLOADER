@@ -83,7 +83,7 @@ def song(_, message):
         )
         m.delete()
     except Exception as e:
-        m.edit("❌ ᴇʀʀᴏʀ, ᴡᴀɪᴛ ғᴏʀ ғɪx")
+        m.edit("❌ ᴇʀʀᴏʀ, ᴡᴀɪᴛ ғᴏʀ ғɪx.")
         print(e)
 
     try:
